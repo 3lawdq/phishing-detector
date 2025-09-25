@@ -1,0 +1,33 @@
+E:\phishing-detector>npx create-next-app@latest frontend -ts
+
+E:\phishing-detector>cd frontend
+
+E:\phishing-detector\frontend>npm install -D tailwindcss postcss autoprefixer
+
+E:\phishing-detector\frontend>npx tailwindcss init -p --ts
+
+E:\phishing-detector\frontend>npm install -D @tailwindcss/postcss
+
+E:\phishing-detector\frontend>rmdir -Recurse -Force node_modules, .next, package-lock.json
+
+E:\phishing-detector\frontend>npm install
+
+E:\phishing-detector\frontend>npm install -D @tailwindcss/postcss autoprefixer
+
+E:\phishing-detector\frontend>npm install @tailwindcss/postcss --save-dev
+
+E:\phishing-detector\frontend>npm install -D tailwindcss
+
+npm uninstall @tailwindcss/postcss
+
+npm install -D tailwindcss@^3 postcss autoprefixer
+
+
+rd /s /q node_modules .next
+rd /s /q  -Recurse -Force node_modules, .next
+rd /s /q  -Force package-lock.json
+rd /s /q  node_modules .next package-lock.json
+npm install
+npm run dev
+
+
